@@ -112,7 +112,7 @@ G_DECODE_VIDEO_H int video_get_frame(video_t* handel,cv::Mat* pCvMat)
 		{
             //解码错误
             pCvMat = NULL;
-            return -7;
+            return 0;
 		}
 		if (pic_got)
 		{
